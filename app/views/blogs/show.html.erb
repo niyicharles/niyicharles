@@ -1,0 +1,47 @@
+<% title "Blog" %>
+
+<%= image_tag @blog.photo.url(:preview) %>
+
+<p>
+  <strong>Title:</strong>
+  <%=h @blog.title %>
+</p>
+<p>
+  <strong>Location:</strong>
+  <%=h @blog.location %>
+</p>
+<p>
+  <strong>Date Of Event:</strong>
+  <%=h @blog.date_of_event %>
+</p>
+<p>
+  <strong>Emphasis:</strong>
+  <%=h @blog.emphasis %>
+</p>
+<p>
+  <strong>Author:</strong>
+  <%=h @blog.author %>
+</p>
+<p>
+  <strong>Photographer:</strong>
+  <%=h @blog.photographer %>
+</p>
+<p>
+  <strong>Information:</strong>
+  <%=h @blog.information %>
+</p>
+<p>
+  <strong>Tags:</strong>
+  <%=h @blog.tags %>
+</p>
+<p>
+  <strong>Category:</strong>
+  <%=h @blog.category_id %>
+</p>
+
+<p>
+  <%= link_to "Edit", edit_blog_path(@blog) %> |
+  <%= link_to "Destroy", @blog, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", blogs_path %>
+</p>
+

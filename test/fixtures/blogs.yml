@@ -1,0 +1,21 @@
+one:
+  title: MyString
+  location: MyString
+  date_of_event: 2011-04-06 07:22:22
+  emphasis: MyString
+  author: MyString
+  photographer: MyString
+  information: MyText
+  tags: MyText
+  category_id: 1
+
+two:
+  title: MyString
+  location: MyString
+  date_of_event: 2011-04-06 07:22:22
+  emphasis: MyString
+  author: MyString
+  photographer: MyString
+  information: MyText
+  tags: MyText
+  category_id: 1

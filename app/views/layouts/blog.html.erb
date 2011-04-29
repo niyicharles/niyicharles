@@ -1,0 +1,822 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title><%= h(yield(:title) || @pagetitle || @pagetitle = "Page Administration" || "Untitled") %></title>
+    <%= stylesheet_link_tag "article" %>
+    <%= yield(:head) %>
+  </head>
+<body>
+
+    <div id="promotion_div">
+
+        <span id="niyicharlesblogspot_logo_span">
+
+            <div id="niyicharlesblogspot_logo_top">
+            <!-- end #niyicharlesblogspot_logo_top --></div>
+
+            <div id="niyicharlesblogspot_logo">
+            <!-- end #niyicharlesblogspot_logo --></div>
+
+        <!-- end #niyicharlesblogspot_logo_span --></span>
+
+        <span id="book_span">
+        <!-- end #book_span --></span>
+
+    <!-- end #promotion_div --></div>
+
+    <div id="navigation_div">
+
+        <div id="navigation_holder">
+
+            <div id="navigation">
+
+                <span id="left_navigation">
+                <!-- end #left_navigation --></span>
+
+                <span id="home">
+
+                    <a href="" id="home_link">
+
+                        <div id="home_link_div">
+                        <!-- end #home_link_div --></div>
+
+                    <!-- end #home_link --></a>
+
+                <!-- end #home --></span>
+
+                <span id="link_space">
+                <!-- end #link_space --></span>
+
+                <span id="about">
+
+                    <a href="" id="about_link">
+
+                        <div id="about_link_div">
+                        <!-- end #about_link_div --></div>
+
+                    <!-- end #about_link --></a>
+
+                <!-- end #about --></span>
+
+                <span id="link_space">
+                <!-- end #link_space --></span>
+
+                <span id="free_stuffs">
+
+                    <a href="" id="free_stuffs_link">
+
+                        <div id="free_stuffs_link_div">
+                        <!-- end #free_stuffs_link_div --></div>
+
+                    <!-- end #free_stuffs_link --></a>
+
+                <!-- end #free_stuffs --></span>
+
+                <span id="link_space">
+                <!-- end #link_space --></span>
+
+                <span id="radio">
+
+                    <a href="" id="radio_link">
+
+                        <div id="radio_link_div">
+                        <!-- end #radio_link_div --></div>
+
+                    <!-- end #radio_link --></a>
+
+                <!-- end #radio --></span>
+
+                <span id="link_space">
+                <!-- end #link_space --></span>
+
+                <span id="new_comers">
+
+                    <a href="" id="new_comers_link">
+
+                        <div id="new_comers_link_div">
+                        <!-- end #new_comers_link_div --></div>
+
+                    <!-- end #new_comers_link --></a>
+
+                <!-- end #new_comers --></span>
+
+                <span id="link_space">
+                <!-- end #link_space --></span>
+
+                <span id="creator">
+
+                    <a href="" id="creator_link">
+
+                        <div id="creator_link_div">
+                        <!-- end #creator_link_div --></div>
+
+                    <!-- end #creator_link --></a>
+
+                <!-- end #creator --></span>
+
+                <span id="link_space">
+                <!-- end #link_space --></span>
+
+                <span id="hire_me">
+
+                    <a href="" id="hire_me_link">
+
+                        <div id="hire_me_link_div">
+                        <!-- end #hire_me_link_div --></div>
+
+                    <!-- end #hire_me_link --></a>
+
+                <!-- end #hire_me --></span>
+
+                <span id="link_space">
+                <!-- end #link_space --></span>
+
+                <span id="connect">
+
+                    <a href="" id="connect_link">
+
+                        <div id="connect_link_div">
+                        <!-- end #connect_link_div --></div>
+
+                    <!-- end #connect_link --></a>
+
+                <!-- end #connect --></span>
+
+                <span id="link_space">
+                <!-- end #link_space --></span>
+
+                <span id="products">
+
+                    <a href="" id="products_link">
+
+                        <div id="products_link_div">
+                        <!-- end #products_link_div --></div>
+
+                    <!-- end #products_link --></a>
+
+                <!-- end #products --></span>
+
+                <span id="link_space">
+                <!-- end #link_space --></span>
+
+                <span id="download">
+
+                    <a href="" id="download_link">
+
+                        <div id="download_link_div">
+                        <!-- end #download_link_div --></div>
+
+                    <!-- end #download_link --></a>
+
+                <!-- end #download --></span>
+
+                <span id="link_space">
+                <!-- end #link_space --></span>
+
+                <span id="sponsors">
+
+                    <a href="" id="sponsors_link">
+
+                        <div id="sponsors_link_div">
+                        <!-- end #sponsors_link_div --></div>
+
+                    <!-- end #sponsors_link --></a>
+
+                <!-- end #sponsors --></span>
+
+                <span id="link_space">
+                <!-- end #link_space --></span>
+
+                <span id="contact">
+
+                    <a href="" id="contact_link">
+
+                        <div id="contact_link_div">
+                        <!-- end #contact_link_div --></div>
+
+                    <!-- end #contact_link --></a>
+
+                <!-- end #contact --></span>
+
+                <span id="link_space">
+                <!-- end #link_space --></span>
+
+                <span id="right_navigation">
+                <!-- end #right_navigation --></span>
+
+            <!-- end #navigation --></div>
+
+        <!-- end #navigation_holder --></div>
+
+    <!-- end #navigation_div --></div>
+
+	<div id="header">
+	<!-- end #header --></div>
+
+        <div id="container_header">
+
+            <span id="container_header_left">
+            <!-- end #container_header_left --></span>
+
+            <span id="container_header_right">
+            <!-- end #container_header_right --></span>
+
+        <!-- end #container_header --></div>
+
+	<div id="container">
+
+        <div id="content">
+
+            <span id="article_container">
+
+                <span id="left_main_article">
+                <!-- end #left_main_article --></span>
+
+                <span id="main_article">
+                    <!-- Start Enter content here! -->
+
+                        <p>
+
+                            <br />
+                            <br /><%= yield %>
+                            <br />
+
+                        </p>
+
+                    <!-- Stop Enter content here! -->
+                <!-- end #main_article --></span>
+
+                <span id="right_main_article">
+                <!-- end #right_main_article --></span>
+
+            <!-- end #article_container --></span>
+
+            <span id="sidebar">
+
+            <div id="sidebar_top">
+
+                <span id="sidebar_top_left">
+                <!-- end #sidebar_top_left --></span>
+
+                <span id="sidebar_top_right">
+                <!-- end #sidebar_top_right --></span>
+
+            <!-- end #sidebar_top --></div>
+
+            <div id="books_and_products_header">
+            <!-- end #books_and_products_header --></div>
+
+            <div id="books_and_products">
+
+                <div class="shift_down_gap">
+                <!-- end .shift_down_gap --></div>
+
+                        <div class="take_word_press_further">
+
+                        	<img src="../images/article_images/take_word_press_further.jpg" height="108" width="272" />
+
+                        <!-- end .take_word_press_further --></div>
+
+            <!-- end #books_and_products --></div>
+
+            <div id="free_updates_header">
+            <!-- end #free_updates_header --></div>
+
+            <div id="free_updates">
+
+                <div class="shift_down_gap">
+                <!-- end .shift_down_gap --></div>
+
+                        <div id="enter_email_address_holder">
+
+                            <div id="enter_email_address_text">
+
+                                To receive updates on your email and receive free books
+                                and other gift items send us your email. Thanks
+
+                            <!-- end #enter_email_address_text --></div>
+
+                            <div id="enter_email_address_span">
+
+                                <span id="enter_email_address_text_field">
+                                <!-- end #enter_email_address_text_field --></span>
+
+                                <span id="enter_email_address_button">
+                                <!-- end #enter_email_address_button --></span>
+
+							<!-- end #enter_email_address_span --></div>
+
+                        <!-- end #enter_email_address_holder --></div>
+
+            <!-- end #free_updates --></div>
+
+            <div id="sponsors_and_affiliates_header">
+            <!-- end #sponsors_and_affiliates_header --></div>
+
+            <div id="sponsors_and_affiliates">
+
+                <div class="shift_down_gap">
+                <!-- end .shift_down_gap --></div>
+
+                        <div id="four_sponsors">
+
+                            <div class="two_sponsors">
+
+                                <span class="one_sponsor">
+
+                                	<img src="../images/article_images/win_sponsor.jpg" width="108" height="108" alt="win_sponsor" />
+
+                                <!-- end .one_sponsor --></span>
+
+                                <span class="one_sponsor_space">
+                                <!-- end .one_sponsor_space --></span>
+
+                                <span class="one_sponsor">
+
+                                	<img src="../images/article_images/seo_sponsor.jpg" width="108" height="108" alt="seo_sponsor" />
+
+                                <!-- end .one_sponsor --></span>
+
+                            <!-- end .two_sponsors --></div>
+
+                            <div id="two_sponsors_space">
+                            <!-- end #two_sponsors_space --></div>
+
+                            <div class="two_sponsors">
+
+                                <span class="one_sponsor">
+
+                                	<img src="../images/article_images/break_sponsor.jpg" width="108" height="108" alt="break_sponsor" />
+
+                                <!-- end .one_sponsor --></span>
+
+                                <span class="one_sponsor_space">
+                                <!-- end .one_sponsor_space --></span>
+
+                                <span class="one_sponsor">
+
+                                	<img src="../images/article_images/empire_sponsor.jpg" width="108" height="108" alt="empire_sponsor" />
+
+                                <!-- end .one_sponsor --></span>
+
+                            <!-- end .two_sponsors --></div>
+
+                        <!-- end #four_sponsors --></div>
+
+            <!-- end #sponsors_and_affiliates --></div>
+
+            <div id="about_me_header">
+            <!-- end #about_me_header --></div>
+
+            <div id="about_me">
+
+                        <div id="about_me_holder">
+
+                          <div id="about_me_picture">
+
+								<div id="about_me_large_border">
+
+                                	<div id="about_me_larger_border">
+
+	                                	<div id="about_me_picture_top">
+	                                    <!-- end #about_me_picture_top --></div>
+
+	                                	<div id="about_me_picture_img">
+
+	   	    	                    		<img src="../images/article_images/about_me_photo.jpg" width="204" height="204" />
+
+	                                    <!-- end #about_me_picture_img --></div>
+
+                                    <!-- end #about_me_larger_border --></div>
+
+	    	                    <!-- end #about_me_picture --></div>
+
+                          <!-- end #about_me_picture --></div>
+
+                           <div id="about_me_text_space">
+                          <!-- end #about_me_text_space --></div>
+
+                           <div id="about_me_text">
+
+                              <div>
+                                    Duis aute irure dolor lorem ipsum dolor sit amet, ullamco laboris nisi. Sunt in culpa in reprehenderit
+                                    in voluptate ut aliquip ex ea commodo consequat. Mollit anim id est...
+                              </div>
+
+                              <div id="read_more">
+                                    Read More
+                              <!-- end #read_more --></div>
+
+							<!-- end #about_me_text --></div>
+
+                        <!-- end #about_me_holder --></div>
+
+            <!-- end #about_me --></div>
+
+            <div id="popular_tags_header">
+            <!-- end #popular_tags_header --></div>
+
+            <div id="popular_tags">
+
+                <div class="shift_down_gap">
+                <!-- end .shift_down_gap --></div>
+
+                        <div id="popular_tags_content">
+
+                        	<img src="../images/article_images/popular_tags_content.jpg" width="235" height="139" alt="Popular Tags Content" />
+
+                        <!-- end #popular_tags_content --></div>
+
+            <!-- end #popular_tags --></div>
+
+            <div id="downloads_header">
+            <!-- end #downloads_header --></div>
+
+            <div id="downloads">
+
+                <div class="shift_down_gap">
+                <!-- end .shift_down_gap --></div>
+
+                <div class="shift_down_gap">
+                <!-- end .shift_down_gap --></div>
+
+                        <div class="take_word_press_further">
+
+                        	<img src="../images/article_images/take_word_press_further.jpg" height="108" width="272" />
+
+                        <!-- end .take_word_press_further --></div>
+
+            <!-- end #downloads --></div>
+
+            <div id="popular_articles_header">
+            <!-- end #popular_articles_header --></div>
+
+            <div id="popular_articles">
+
+                <div class="shift_down_gap">
+                <!-- end .shift_down_gap --></div>
+
+                <div class="shift_down_gap">
+                <!-- end .shift_down_gap --></div>
+
+                <div class="shift_down_gap">
+                <!-- end .shift_down_gap --></div>
+
+                    <div id="popular_articles_text_div">
+
+                        <div id="popular_articles_text">
+
+                            <a href="" class="article_text_holder" title="Dynamic Article Text">
+
+                                <div class="article_text_div">
+
+                                    <div class="article_text_frame">
+
+                                            <div class="article_text_holder_space">
+                                            <!-- end .article_text_holder_space --></div>
+
+                                            <div class="article_text_holder_header">
+
+                                                Ut labore et dolore magna aliqua.
+
+                                            <!-- end .article_text_holder_header --></div>
+
+                                            <div class="article_text_holder_info">
+
+                                                Consectetur adipisicing elit, ut enim ad minim veniam quis nostrud exercitation.
+                                                In reprehenderit in voluptate sed do...
+
+                                            <!-- end .article_text_holder_info --></div>
+
+                                            <div class="article_text_holder_read">
+
+                                                Read More
+
+                                            <!-- end .article_text_holder_read --></div>
+
+                                    <!-- end .article_text_frame --></div>
+
+                                <!-- end .article_text_div --></div>
+
+                            <!-- end .article_text_holder --></a>
+
+                        <!-- end #popular_articles_text --></div>
+
+                    <!-- end #popular_articles_text_div --></div>
+
+                    <div class="popular_articles_text_space">
+                    <!-- end #popular_articles_text_space --></div>
+
+                    <div id="popular_articles_text_div">
+
+                        <div id="popular_articles_text">
+
+                            <a href="" class="article_text_holder" title="Dynamic Article Text">
+
+                                <div class="article_text_div">
+
+                                    <div class="article_text_frame">
+
+                                            <div class="article_text_holder_space">
+                                            <!-- end .article_text_holder_space --></div>
+
+                                            <div class="article_text_holder_header">
+
+                                                Ut labore et dolore magna aliqua.
+
+                                            <!-- end .article_text_holder_header --></div>
+
+                                            <div class="article_text_holder_info">
+
+                                                Consectetur adipisicing elit, ut enim ad minim veniam quis nostrud exercitation.
+                                                In reprehenderit in voluptate sed do...
+
+                                            <!-- end .article_text_holder_info --></div>
+
+                                            <div class="article_text_holder_read">
+
+                                                Read More
+
+                                            <!-- end .article_text_holder_read --></div>
+
+                                    <!-- end .article_text_frame --></div>
+
+                                <!-- end .article_text_div --></div>
+
+                            <!-- end .article_text_holder --></a>
+
+                        <!-- end #popular_articles_text --></div>
+
+                    <!-- end #popular_articles_text_div --></div>
+
+                    <div id="popular_articles_text_div">
+
+                        <div id="popular_articles_text">
+
+                            <a href="" class="article_text_holder" title="Dynamic Article Text">
+
+                                <div class="article_text_div">
+
+                                    <div class="article_text_frame">
+
+                                            <div class="article_text_holder_space">
+                                            <!-- end .article_text_holder_space --></div>
+
+                                            <div class="article_text_holder_header">
+
+                                                Ut labore et dolore magna aliqua.
+
+                                            <!-- end .article_text_holder_header --></div>
+
+                                            <div class="article_text_holder_info">
+
+                                                Consectetur adipisicing elit, ut enim ad minim veniam quis nostrud exercitation.
+                                                In reprehenderit in voluptate sed do...
+
+                                            <!-- end .article_text_holder_info --></div>
+
+                                            <div class="article_text_holder_read">
+
+                                                Read More
+
+                                            <!-- end .article_text_holder_read --></div>
+
+                                    <!-- end .article_text_frame --></div>
+
+                                <!-- end .article_text_div --></div>
+
+                            <!-- end .article_text_holder --></a>
+
+                        <!-- end #popular_articles_text --></div>
+
+                    <!-- end #popular_articles_text_div --></div>
+
+                    <div class="popular_articles_text_space">
+                    <!-- end #popular_articles_text_space --></div>
+
+            <!-- end #popular_articles --></div>
+
+            <div id="sidebar_base">
+
+                <span id="sidebar_base_left">
+                <!-- end #sidebar_base_left --></span>
+
+                <span id="sidebar_base_right">
+                <!-- end #sidebar_base_right --></span>
+
+            <!-- end #sidebar_base --></div>
+
+            <!-- end #sidebar --></span>
+
+        <!-- end #content --></div>
+
+		<div id="content_base">
+
+            <span id="left_content_base">
+            <!-- end #left_content_base--></span>
+
+            <span id="middle_content_base">
+            <!-- end #middle_content_base--></span>
+
+            <span id="right_content_base">
+            <!-- end #right_content_base--></span>
+
+        <!-- end #content_base --></div>
+
+	<!-- end #container --></div>
+
+    <div class="space_b4_content">
+    <!-- end .space_b4_content --></div>
+
+    <div id="footer_content_div">
+
+        <div id="footer_content">
+
+            <span id="recent_posts">
+
+                <span id="recent_posts_lines">
+
+                    <div id="recent_posts_top">
+                    <!-- end #recent_posts_top --></div>
+
+                    <div id="recent_posts_header">
+                    <!-- end #recent_posts_header --></div>
+
+                    <div id="recent_posts_space">
+                    <!-- end #recent_posts_space --></div>
+
+                    <div id="recent_posts_text">
+
+                        <a href="">
+
+                            <div id="recent_posts_text_header">
+
+                                <span class="news">Today's News</span>
+
+                                <span class="date">20/01/2011</span>
+
+                            <!-- end #recent_posts_text_header --></div>
+
+                        </a>
+
+                    <!-- end #recent_posts_text --></div>
+
+                    <div id="recent_posts_text">
+
+                        <a href="">
+
+                            <div id="recent_posts_text_header">
+
+                                <span class="news">Yesterday's News</span>
+
+                                <span class="date">19/01/2011</span>
+
+                            <!-- end #recent_posts_text_header --></div>
+
+                        </a>
+
+                    <!-- end #recent_posts_text --></div>
+
+                    <div id="recent_posts_text">
+
+                        <a href="">
+
+                            <div id="recent_posts_text_header">
+
+                                <span class="news">Day Before News</span>
+
+                                <span class="date">18/01/2011</span>
+
+                            <!-- end #recent_posts_text_header --></div>
+
+                        </a>
+
+                    <!-- end #recent_posts_text --></div>
+
+                    <div id="recent_posts_text">
+
+                        <a href="">
+
+                            <div id="recent_posts_text_header">
+
+                                <span class="news">Three Days Ago News</span>
+
+                                <span class="date">17/01/2011</span>
+
+                            <!-- end #recent_posts_text_header --></div>
+
+                        </a>
+
+                    <!-- end #recent_posts_text --></div>
+
+                    <div id="recent_posts_text">
+
+                        <a href="">
+
+                            <div id="recent_posts_text_header">
+
+                                <span class="news">Four Days Ago News</span>
+
+                                <span class="date">16/01/2011</span>
+
+                            <!-- end #recent_posts_text_header --></div>
+
+                        </a>
+
+                    <!-- end #recent_posts_text --></div>
+
+                <!-- end #recent_posts_lines --></span>
+
+            <!-- end #recent_posts --></span>
+
+            <span id="footer_shadows">
+            <!-- end #footer_shadows --></span>
+
+            <span id="recent_comments">
+
+                <span id="recent_comments_lines">
+
+                    <div id="recent_comments_top">
+                    <!-- end #recent_comments_top --></div>
+
+                    <div id="recent_comments_header">
+                    <!-- end #recent_comments_header --></div>
+
+                    <div id="recent_comments_space">
+                    <!-- end #recent_comments_space --></div>
+
+                    <div id="recent_comments_text_header">
+
+                    	<div>Alexandria said:</div>
+
+                    <!-- end #recent_comments_text_header --></div>
+
+                    <div id="recent_comments_text">
+
+                    	<div>
+
+							Duis aute irure dolor ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur
+                            sint occaecat eu...
+
+                        </div>
+
+                        <a href="">
+
+                            <div id="comments_read_more">
+                                Read More
+                            <!-- end #comments_read_more --></div>
+
+                        </a>
+
+                    <!-- end #recent_comments_text --></div>
+
+                    <div id="recent_comments_space">
+                    <!-- end #recent_comments_space --></div>
+
+                    <div id="recent_comments_text_header">
+
+                    	<div>Alexandria said:</div>
+
+                    <!-- end #recent_comments_text_header --></div>
+
+                    <div id="recent_comments_text">
+
+                    	<div>
+
+							Duis aute irure dolor ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur
+                            sint occaecat eu...
+
+                        </div>
+
+                        <a href="">
+
+                            <div id="comments_read_more">
+                                Read More
+                            <!-- end #comments_read_more --></div>
+
+                        </a>
+
+                    <!-- end #recent_comments_text --></div>
+
+                <!-- end #recent_comments_lines --></span>
+
+            <!-- end #recent_comments --></span>
+
+        <!-- end #footer_content --></div>
+
+    <!-- end #footer_content_div --></div>
+
+    <div id="footer">
+
+        <div id="footer_text">
+
+        ©niyicharlesblogspot.com . All rights reserved. Ullamco laboris nisi sunt in culpa lorem ipsum dolor sit 	amet. Qui officia 			deserunt. Sed do eiusmod tempor incididunt.
+
+        <!-- end #footer_text --></div>
+
+    <!-- end #footer --></div>
+
+</body>
+</html>
+

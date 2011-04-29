@@ -1,0 +1,487 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font: 												100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background: 										#000;
+	margin: 											0;
+	padding: 											0;
+	color: 												#000;
+}
+
+#header {
+	height:												96px;
+	background:										    url(../images/header_bg.jpg) repeat-x left top;
+}
+
+#header_div {
+	width:												1049px;
+	height:												96px;
+	margin:												0 auto;
+}
+
+#header_span_1 {
+	float:												left;
+	height:												96px;
+	width:												25px;
+}
+
+#header_span_2 {
+	float:												left;
+	height:												96px;
+	width:												409px;
+	background:										    url(../images/header_span_2.jpg) repeat-x left top;
+}
+
+#header_span_3 {
+	float:												left;
+	height:												96px;
+	width:												332px;
+}
+
+#header_span_4 {
+	float:												left;
+	height:												96px;
+	width:												258px;
+	background:										    url(../images/header_span_4.jpg) repeat-x left top;
+}
+
+#header_span_5 {
+	float:												left;
+	height:												96px;
+	width:												25px;
+}
+
+#form_holder {
+	height:												200px;
+	width:												180px;
+	margin:												0 auto;
+}
+
+
+#navigation {
+	height:												48px;
+	background:										    url(../images/navigation_bg.jpg) repeat-x left top;
+}
+
+#navigation_div {
+	width:												1049px;
+	height:												48px;
+	margin:												0 auto;
+}
+
+#navigation_span_1 {
+	float:												left;
+	height:												48px;
+	width:												25px;
+}
+
+#navigation_span_2 {
+	float:												left;
+	height:												48px;
+	width:												409px;
+	background:										    url(../images/navigation_span_2.jpg) repeat-x left top;
+}
+
+#content_1 {
+	height:												303px;
+	background:										    url(../images/content_1.jpg) repeat-x left top;
+}
+
+#content_1_div {
+	width:												1049px;
+	height:												303px;
+	margin:												0 auto;
+}
+
+#content_1_span_1 {
+	float:												left;
+	height:												303px;
+	width:												25px;
+	background:										    url(../images/content_1_span_1.jpg) repeat-x left top;
+}
+
+#content_1_span_2 {
+	float:												left;
+	height:												303px;
+	width:												409px;
+	background:										    url(../images/content_1_span_2.jpg) repeat-x left top;
+}
+
+#content_1_span_3 {
+	float:												left;
+	height:												303px;
+	width:												332px;
+	background:										    url(../images/content_1_span_3.jpg) repeat-x left top;
+}
+
+#content_1_span_4 {
+	float:												left;
+	height:												303px;
+	width:												258px;
+	background:										    url(../images/content_1_span_4.jpg) repeat-x left top;
+}
+
+#content_1_span_5 {
+	float:												left;
+	height:												303px;
+	width:												25px;
+	background:										    url(../images/content_1_span_5.jpg) repeat-x left top;
+}
+
+#slide_shadow {
+	height:												16px;
+	background:										    url(../images/slide_shadow_bg.jpg) repeat-x left top;
+}
+
+#slide_shadow_div {
+	width:												1049px;
+	height:												16px;
+	margin:												0 auto;
+}
+
+#slide_shadow_span_1 {
+	float:												left;
+	height:												16px;
+	width:												25px;
+	background:										    url(../images/slide_shadow_span_1.jpg) repeat-x left top;
+}
+
+#slide_shadow_span_2 {
+	float:												left;
+	height:												16px;
+	width:												409px;
+	background:										    url(../images/slide_shadow_span_2.jpg) repeat-x left top;
+}
+
+#slide_shadow_span_3 {
+	float:												left;
+	height:												16px;
+	width:												332px;
+	background:										    url(../images/slide_shadow_span_3.jpg) repeat-x left top;
+}
+
+#slide_shadow_span_4 {
+	float:												left;
+	height:												16px;
+	width:												258px;
+	background:										    url(../images/slide_shadow_span_4.jpg) repeat-x left top;
+}
+
+#slide_shadow_span_5 {
+	float:												left;
+	height:												16px;
+	width:												25px;
+	background:										    url(../images/slide_shadow_span_5.jpg) repeat-x left top;
+}
+
+#content_2 {
+	height:												1200px;
+}
+
+#content_2_div {
+	width:												1049px;
+	height:												1200px;
+	margin:												0 auto;
+}
+
+#content_2_span_1 {
+	float:												left;
+	height:												1200px;
+	width:												25px;
+	background:										    url(../images/content_2_span_1.jpg) no-repeat left top;
+}
+
+#content_2_span_2 {
+	float:												left;
+	height:												1200px;
+	width:												409px;
+	background:										    url(../images/content_2_span_2.jpg) no-repeat left top;
+}
+
+#content_2_span_3 {
+	float:												left;
+	height:												1200px;
+	width:												590px;
+}
+
+#content_2_span_3_div1 {
+	height:												37px;
+	width:												590px;
+}
+
+#content_2_span_3_div2 {
+	height:												59px;
+	width:												580px;
+	background:										    #4e4e4e;
+	margin:												0 auto;
+}
+
+#content_2_span_3_black {
+	height:												57px;
+	width:												580px;
+	background:										    black;
+	border-top: 										1px solid #4e4e4e;
+	margin:												0 auto;
+}
+
+#content_2_span_3_grey {
+	height:												55px;
+	width:												580px;
+	background:										    #4e4e4e;
+	border-top: 										1px solid black;
+	font: 												bold 30px/55px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-transform: 									uppercase;
+	color: 												#FFF;
+	text-align: 										center;
+	margin:												0 auto;
+}
+
+#content_2_span_3_grey1 {
+	height:												70px;
+	width:												580px;
+	background:										    #4e4e4e;
+	border-top: 										1px solid black;
+	font: 												bold 14px/16px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-transform: 									uppercase;
+	color: 												#FFF;
+	text-align: 										center;
+	margin:												0 auto;
+	border-bottom:									    1px solid black;
+}
+
+#content_2_span_3_grey2 {
+	clear:												both;
+	height:												74px;
+	width:												580px;
+	background:										    #4e4e4e;
+	text-align: 										center;
+	margin:												0 auto;
+}
+
+#content_2_span_3_gap {
+	height:												1px;
+	width:												580px;
+	margin:												0 auto;
+}
+
+#content_2_span_3_gap2 {
+	height:												17px;
+	width:												580px;
+	margin:												0 auto;
+}
+
+#content_2_span_3_first {
+	width:												580px;
+	font: 												14px/14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: 												#FFF;
+	margin:												0 auto;
+}
+
+.note {
+	color:												#fe905a;
+	text-align:											center;
+}
+
+#content_2_span_4 {
+	float:												left;
+	height:												381px;
+	width:												25px;
+	background:										    url(../images/content_2_span_4.jpg) no-repeat left top;
+}
+
+#share {
+	height:												200px;
+}
+
+#share_div {
+	width:												1049px;
+	height:												200px;
+	margin:												0 auto;
+}
+
+#share_span_1 {
+	float:												left;
+	height:												200px;
+	width:												84px;
+}
+
+#share_span_2 {
+	float:												left;
+	height:												200px;
+	width:												317px;
+}
+
+#new_share {
+	height:												100px;
+	width:												100%;
+}
+
+#new_share_dim {
+	height:												100px;
+	width:												1000px;
+	margin:												0 auto;
+}
+
+#new_share_right {
+	height:												100px;
+	width:												560px;
+	float:												right;
+}
+
+#new_share_right a {
+	text-decoration:									none;
+}
+
+#new_share_right a:hover #facebook_share {
+	background:										    url(../images/facebook_hover.jpg) no-repeat left top;
+}
+
+#new_share_right a {
+	text-decoration:									none;
+}
+
+#new_share_right a:hover #twitter_share {
+	background:										    url(../images/twitter_hover.jpg) no-repeat left top;
+}
+
+#facebook_share {
+	height:												91px;
+	width:												131px;
+	float:												left;
+	background:										    url(../images/facebook_normal.jpg) no-repeat left top;
+}
+
+.facebook_counter_gap {
+	height:												10px;
+	width:												20px;
+}
+
+#facebook_counter {
+	height:												91px;
+	width:												80px;
+	float:												left;
+}
+
+#twitter_share {
+	height:												91px;
+	width:												131px;
+	float:												left;
+	background:										    url(../images/twitter_normal.jpg) no-repeat left top;
+}
+
+#twitter_counter {
+	height:												91px;
+	width:												131px;
+	float:												left;
+}
+
+
+
+#twitter {
+	background: 										url(../images/twiiter.jpg);
+	width: 												317px;
+	height: 											58px;
+}
+
+#share_gap {
+	width: 												317px;
+height: 												20px;
+}
+
+#facebook {
+	background: 										url(../images/facebook.jpg);
+	width: 												317px;
+	height: 											58px;
+}
+
+
+#share_span_3 {
+	float:												left;
+	height:												200px;
+	width:												73px;
+}
+
+#share_span_4 {
+	float:												left;
+	height:												200px;
+	width:												282px;
+	background:										    url(../images/share_span_4.jpg) no-repeat left top;
+}
+
+#share_span_5_left_space {
+	float:												left;
+	height:												30px;
+	width:												10px;
+	font-size: 											14px;
+	color: 												#FFF;
+}
+
+#share_span_5 {
+	float:												left;
+	height:												300px;
+	width:												248px;
+	font-size: 											14px;
+	color: 												#FFF;
+}
+
+.field {
+	background: 										url(../images/text_field.jpg);
+	width: 												258px;
+	height: 											33px;
+}
+
+#firstname {
+	padding-left:										20px;
+	width: 												258px;
+	height: 											16px;
+}
+
+#email {
+	padding-left:										20px;
+	width: 												258px;
+	height: 											16px;
+}
+#submit_button {
+	background: 										url(../images/submit_button.jpg) no-repeat center;
+	height: 											34px;
+	width: 												258px;
+}
+
+
+#buildings {
+	height:												95px;
+}
+
+#buildings_div {
+	width:												1049px;
+	height:												95px;
+	margin:												0 auto;
+}
+
+#buildings_span_1 {
+	float:												left;
+	width:												250px;
+	height:												95px;
+}
+
+#buildings_span_2 {
+	float:												left;
+	height:												95px;
+	width:												550px;
+	background:										    url(../images/buildings_span_2.jpg) no-repeat left top;
+}
+
+#footer {
+	height:												95px;
+	background:										    #d6d6d6;
+}
+
+#footer_div {
+	width:												1049px;
+	height:												95px;
+	margin:												0 auto;
+	text-align:											center;
+	font: 												12px/95px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
