@@ -1,15 +1,59 @@
-<% title "Log in" %>
+<% title "Login Please!" %>
 
-<p>Don't have an account? <%= link_to "Sign up!", signup_path %></p>
+	<div id="header">
 
-<% form_tag sessions_path do %>
-  <p>
-    <%= label_tag :login, "Username or Email Address" %><br />
-    <%= text_field_tag :login, params[:login] %>
-  </p>
-  <p>
-    <%= label_tag :password %><br />
-    <%= password_field_tag :password %>
-  </p>
-  <p><%= submit_tag "Log in" %></p>
-<% end %>
+        <div class="link_back"><%= link_to "Go to blog archive!", blogs_path %>
+        <!-- end .link_back --></div>
+
+    <!-- end #header --></div>
+
+    <div class="space_between_2">
+    <!-- end .space_between_2 --></div>
+
+	<div id="logo">
+    <!-- end #logo --></div>
+
+    <div class="space_between_2">
+    <!-- end .space_between_2 --></div>
+
+	<div id="form_top">
+    <!-- end #form_top --></div>
+
+<div id="form_body">
+
+        <div id="form_contents">
+
+          <% form_tag sessions_path do %>
+
+            <%= label_tag :login, "Username or Email Address" %><br />
+
+            <%= text_field_tag :login, params[:login] %><br />
+
+            <div class="space_between">
+            <!-- end .space_between --></div>
+
+            <%= label_tag :password %><br />
+
+            <%= password_field_tag :password %><br />
+
+          <div class="space_between">
+            <!-- end .space_between --></div>
+
+            <div class="space_between">
+            <!-- end .space_between --></div>
+
+            <div id="form_button"><%= image_submit_tag("/images/login_images/login.jpg") %>
+            <!-- end #form_button --></div>
+
+        <% end %>
+
+      <!-- end #form_contents --></div>
+
+    <!-- end #form_body --></div>
+
+	<div id="form_below">
+    <!-- end #form_below --></div>
+
+	<div id="form_links"><%= link_to "Register new admin!", signup_path %> | <%= link_to "Go to blog archive!", blogs_path %>
+    <!-- end #form_links --></div>
+

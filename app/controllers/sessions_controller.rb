@@ -1,6 +1,8 @@
 class SessionsController < ApplicationController
   before_filter :loadmetadata
 
+  layout "login"
+
   def loadmetadata
     @pages = Page.all
 
@@ -15,8 +17,8 @@ class SessionsController < ApplicationController
     if user
       session[:user_id] = user.id
       flash[:notice] = "Logged in successfully."
-#     redirect_to_target_or_default(root_url)
-      redirect_to (view_page_path("home"))
+      # redirect_to_target_or_default(root_url)
+      redirect_to :controller => "blogs", :action => "index"
     else
       flash.now[:error] = "Invalid login or password."
       render :action => 'new'
@@ -26,8 +28,8 @@ class SessionsController < ApplicationController
   def destroy
     session[:user_id] = nil
     flash[:notice] = "You have been logged out."
-#   redirect_to root_url
-    redirect_to (view_page_path("home"))
+    # redirect_to root_url
+    redirect_to :controller => "blogs", :action => "index"
   end
 end
 

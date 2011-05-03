@@ -239,7 +239,25 @@
                         <p>
 
                             <br />
-                            <br /><%= yield %>
+                            <br />
+
+                            <div>
+                              <%= link_to "Blogs", blogs_path %>
+                            </div>
+
+                             <% if logged_in? %>
+                               Welcome <%=h current_user.username %>! Not you?
+                               <%= link_to "Log out", logout_path %>
+                             <% else %>
+                               <%= link_to "Sign up", signup_path %> or
+                               <%= link_to "log in", login_path %>.
+                             <% end %>
+
+                            <%- if show_title? -%>
+                              <h1><%=h yield(:title) %></h1>
+                            <%- end -%>
+
+                            <%= yield %>
                             <br />
 
                         </p>
