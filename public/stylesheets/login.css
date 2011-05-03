@@ -140,3 +140,20 @@ body {
 	margin:									0 auto;
 }
 
+#flash_notice, #flash_error {
+    padding: 5px 8px;
+    text-align:                                 center;
+    width:                                      440px;
+    margin:									    0 auto;
+}
+
+#flash_notice {
+  background-color: #CFC;
+  border: solid 1px #6C6;
+}
+
+#flash_error {
+  background-color: #FCC;
+  border: solid 1px #C66;
+}
+
