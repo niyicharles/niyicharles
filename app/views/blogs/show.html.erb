@@ -1,47 +1,202 @@
-<% title "Blog" %>
+<div id="article_title"><%=h @blog.title %>
+<!-- end #article_title --></div>
 
-<%= image_tag @blog.photo.url(:preview) %>
+<div id="article_title_gap">
+<!-- end #article_title_gap --></div>
 
-<p>
-  <strong>Title:</strong>
-  <%=h @blog.title %>
-</p>
-<p>
-  <strong>Location:</strong>
-  <%=h @blog.location %>
-</p>
-<p>
-  <strong>Date Of Event:</strong>
-  <%=h @blog.date_of_event %>
-</p>
-<p>
-  <strong>Emphasis:</strong>
-  <%=h @blog.emphasis %>
-</p>
-<p>
-  <strong>Author:</strong>
-  <%=h @blog.author %>
-</p>
-<p>
-  <strong>Photographer:</strong>
-  <%=h @blog.photographer %>
-</p>
-<p>
-  <strong>Information:</strong>
-  <%=h @blog.information %>
-</p>
-<p>
-  <strong>Tags:</strong>
-  <%=h @blog.tags %>
-</p>
-<p>
-  <strong>Category:</strong>
-  <%=h @blog.category_id %>
-</p>
+<div id="article_photo">
 
-<p>
-  <%= link_to "Edit", edit_blog_path(@blog) %> |
-  <%= link_to "Destroy", @blog, :confirm => 'Are you sure?', :method => :delete %> |
-  <%= link_to "View All", blogs_path %>
-</p>
+  <div id="article_picture">
+
+    <%= image_tag @blog.photo.url(:standard) %>
+
+  <!-- end #article_picture --></div>
+
+  <div id="article_image_title_gap">
+  <!-- end #article_image_title_gap --></div>
+
+  <div id="article_image_title"><%=h @blog.title %>
+  <!-- end #article_image_title --></div>
+
+<!-- end #article_photo --></div>
+
+<div id="article_info">
+
+  <div id="article_author">
+    by <%= @blog.author %>
+  <!-- end #article_date --></div>
+
+  <div id="article_date">
+    <%= @blog.updated_at.to_formatted_s(:long_ordinal) %>
+  <!-- end #article_date --></div>
+
+  <%= @blog.information %>
+
+<!-- end #article_info --></div>
+
+                    <div class="archive_space">
+					<!-- end .archive_space --></div>
+
+<% if current_user.nil? %>
+
+  <div id="comment_block2">
+
+	  <div class="comment_read_div2">
+
+
+      <div class="comment_read2">
+
+        <a href="">
+
+
+          <span class="back_to_archive">
+          <!-- end .back_to_archive --></span>
+
+        </a>
+
+        <a href="">
+
+          <span class="article_icon">
+          <!-- end .article_icon --></span>
+
+        </a>
+
+        <a href="">
+
+          <span class="comment">32 Comments
+
+          <!-- end .comment --></span>
+
+        </a>
+
+        <a href="">
+
+          <span class="article_share">
+          <!-- end #article_share--></span>
+
+        </a>
+
+        <a href="">
+
+          <span class="article_comment_end">
+          <!-- end .article_comment_end--></span>
+
+        </a>
+
+      <!-- end .comment_read2 --></div>
+
+    <!-- end .comment_read_div2 --></div>
+
+  <!-- end #comment_block2 --></div>
+
+<% else %>
+
+<% if current_user.username == "niyicharles" %>
+
+  <div id="comment_block">
+
+	  <div class="comment_read_div">
+
+
+      <div class="comment_read">
+
+        <a href="">
+
+
+          <span class="back_to_archive">
+          <!-- end .back_to_archive --></span>
+
+
+        </a>
+
+        <a href="">
+
+
+          <span class="article_icon">
+          <!-- end .article_icon --></span>
+
+        </a>
+
+
+        <a href="">
+
+          <span class="comment">32 Comments
+
+          <!-- end .comment --></span>
+
+        </a>
+
+        <a href="">
+
+          <span class="article_share">
+          <!-- end #article_share--></span>
+
+        </a>
+
+
+        <a href="">
+
+          <span class="article_edit">
+          <!-- end .article_edit--></span>
+
+        </a>
+
+        <a href="">
+
+          <span class="article_delete">
+          <!-- end .article_delete--></span>
+
+        </a>
+
+      <!-- end .comment_read --></div>
+
+    <!-- end .comment_read_div --></div>
+
+  <!-- end #comment_block --></div>
+
+<% else %>
+
+  <div id="comment_block2">
+
+	  <div class="comment_read_div2">
+
+      <div class="comment_read2">
+
+        <a href="">
+
+          <span class="back_to_archive">
+          <!-- end .back_to_archive --> </span>
+
+        </a>
+
+        <a href="">
+
+          <span class="article_icon">
+          <!-- end .article_icon --></span>
+
+                                        </a>
+
+                                        <a href="">
+
+                                            <span class="comment">32 Comments
+                                            <!-- end .comment --></span>
+
+                                        </a>
+
+                                        <a href="">
+
+                                            <span class="article_share">
+                                            <!-- end #article_share--></span>
+
+                                        </a>
+
+                                    <!-- end .comment_read2 --></div>
+
+                                <!-- end .comment_read_div2 --></div>
+
+                    <!-- end #comment_block2 --></div>
+
+<% end %>
+
+<% end %>
 

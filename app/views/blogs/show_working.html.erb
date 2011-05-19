@@ -1,0 +1,130 @@
+<% title "Blog" %>
+
+  <div id="article_title"><%=h @blog.title %>
+  <!-- end #article_title --></div>
+
+  <div id="article_space">
+  <!-- end #article_space --></div>
+
+	<div id="article_photo">
+
+    <%= image_tag @blog.photo.url(:preview) %>
+
+  <!-- end #article_photo --></div>
+
+  <div id="article_image_title_gap">
+  <!-- end #article_image_title_gap --></div>
+
+  <div id="article_image_title"><%=h @blog.title %>
+  <!-- end #article_image_title --></div>
+
+	<div id="article_info">
+
+    <%= @blog.information %>
+
+	<!-- end #article_info --></div>
+
+  <div class="archive_space">
+	<!-- end .archive_space --></div>
+
+  <div id="comment_block">
+
+	  <div class="comment_read_div">
+
+      <div class="comment_read">
+
+        <a href="">
+
+          <span class="back_to_archive">
+          <!-- end .back_to_archive --></span>
+
+        </a>
+
+        <a href="">
+
+          <span class="article_icon">
+          <!-- end .article_icon --></span>
+
+        </a>
+
+        <a href="">
+
+          <span class="comment">32 Comments
+          <!-- end .comment --></span>
+
+        </a>
+
+        <a href="">
+
+          <span class="article_share">
+          <!-- end #article_share--></span>
+
+        </a>
+
+
+                                        <a href="">
+
+                                            <span class="article_edit">
+                                            <!-- end .article_edit--></span>
+
+                                        </a>
+
+                                        <a href="">
+
+                                            <span class="article_delete">
+                                            <!-- end .article_delete--></span>
+
+                                        </a>
+
+                                    <!-- end .comment_read --></div>
+
+                                <!-- end .comment_read_div --></div>
+
+                    <!-- end #comment_block --></div>
+
+<!--                    <div id="comment_block2">
+
+							<div class="comment_read_div2">
+
+                                    <div class="comment_read2">
+
+                                        <a href="">
+
+                                            <span class="back_to_archive">
+                                            <!-- end .back_to_archive --> <!--</span>
+
+<!--                                        </a>
+
+                                        <a href="">
+
+                                            <span class="article_icon">
+                                            <!-- end .article_icon --><!--</span>
+
+                                        </a>
+
+                                        <a href="">
+
+                                            <span class="comment">32 Comments
+                                            <!-- end .comment --><!--</span>
+
+                                        </a>
+
+                                        <a href="">
+
+                                            <span class="article_share">
+                                            <!-- end #article_share--><!--</span>
+
+                                        </a>
+
+                                    <!-- end .comment_read2 --><!--</div>
+
+                                <!-- end .comment_read_div2 --><!--</div>
+
+                    <!-- end #comment_block2 --><!--</div>-->
+
+<p>
+  <%= link_to "Edit", edit_blog_path(@blog) %> |
+  <%= link_to "Destroy", @blog, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", blogs_path %>
+</p>
+

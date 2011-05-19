@@ -17,6 +17,8 @@ class BlogsController < ApplicationController
 
   def show
     @blog = Blog.find(params[:id])
+
+    render :layout => "display"
   end
 
   def new

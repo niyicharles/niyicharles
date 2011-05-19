@@ -284,8 +284,10 @@
                                         <div class="article_picture_square_space">
                                         <!-- end .article_picture_square_space --></div>
 
-                                        <img src="../images/article_index_images/article_picture_square_1.jpg"
-                                                width="184" height="184" alt="article_picture_square_1" />
+                                        <% if @blogs[0] %>
+                                          <%= image_tag @blogs[0].photo.url(:medium) %>
+                                        <% else %>
+                                        <% end %>
 
                                     <!-- end .article_picture_square --></div>
 
@@ -486,8 +488,10 @@
                                         <div class="article_picture_square_space">
                                         <!-- end .article_picture_square_space --></div>
 
-                                        <img src="../images/article_index_images/article_picture_square_2.jpg"
-                                                width="184" height="184" alt="article_picture_square_2" />
+                                        <% if @blogs[1] %>
+                                          <%= image_tag @blogs[1].photo.url(:medium) %>
+                                        <% else %>
+                                        <% end %>
 
                                     <!-- end .article_picture_square --></div>
 
@@ -753,8 +757,10 @@
                                             <div class="article_picture_rectangle_space">
                                             <!-- end .article_picture_rectangle_space --></div>
 
-                                            <img src="../images/article_index_images/article_picture_rectangular_1.jpg"
-                                            		width="284" height="114" alt="article_picture_rectangular_1" />
+                                            <% if @blogs[2] %>
+                                              <%= image_tag @blogs[2].photo.url(:slimshot) %>
+                                            <% else %>
+                                            <% end %>
 
                                         <!-- end .article_picture_rectangle --></div>
 
@@ -925,8 +931,10 @@
                                             <div class="article_picture_rectangle_space">
                                             <!-- end .article_picture_rectangle_space --></div>
 
-                                            <img src="../images/article_index_images/article_picture_rectangular_1.jpg"
-                                            		width="284" height="114" alt="article_picture_rectangular_1" />
+                                            <% if @blogs[3] %>
+                                              <%= image_tag @blogs[3].photo.url(:slimshot) %>
+                                            <% else %>
+                                            <% end %>
 
                                         <!-- end .article_picture_rectangle --></div>
 
@@ -1111,8 +1119,10 @@
                                             <div class="article_picture_rectangle_space">
                                             <!-- end .article_picture_rectangle_space --></div>
 
-                                            <img src="../images/article_index_images/article_picture_rectangular_1.jpg"
-                                            		width="284" height="114" alt="article_picture_rectangular_1" />
+                                            <% if @blogs[4] %>
+                                              <%= image_tag @blogs[4].photo.url(:slimshot) %>
+                                            <% else %>
+                                            <% end %>
 
                                         <!-- end .article_picture_rectangle --></div>
 
@@ -1280,8 +1290,10 @@
                                             <div class="article_picture_rectangle_space">
                                             <!-- end .article_picture_rectangle_space --></div>
 
-                                            <img src="../images/article_index_images/article_picture_rectangular_1.jpg"
-                                            		width="284" height="114" alt="article_picture_rectangular_1" />
+                                            <% if @blogs[5] %>
+                                              <%= image_tag @blogs[5].photo.url(:slimshot) %>
+                                            <% else %>
+                                            <% end %>
 
                                         <!-- end .article_picture_rectangle --></div>
 
@@ -2175,7 +2187,7 @@
   </div>
 
   <div>
-    <%= image_tag blog.photo.url(:snapshot) %>
+    <%= image_tag blog.photo.url(:medium) %>
   </div>
   <div>
     <%=h blog.title %>
